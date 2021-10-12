@@ -10,7 +10,7 @@
 
 /* Utility Components */
 html {
-  font-size: 62.5%;
+  font-size: 120%;
 }
 
 body {
@@ -24,11 +24,10 @@ form {
   color: antiquewhite;
   width: 20rem;
   margin: 25vh auto 0;
-  /* border: #e6d47100 0.1rem solid; */
 }
 h2 {
   width: 5rem;
-  padding-top: 3rem;
+  padding-top: 2.7rem;
   margin: 0 auto 1rem;
 }
 .input-container:hover input {
@@ -36,6 +35,8 @@ h2 {
   box-shadow: antiquewhite 0 0.2rem 0.3rem 0;
 }
 .input-container input {
+  font-size: 1rem;
+  padding: 0.2rem 0;
   position: relative;
   outline: none;
   color: antiquewhite;
